@@ -1,0 +1,39 @@
+.services {
+    padding-bottom: 62px;
+}
+.services__title {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #194484;
+    margin-bottom: 40px;
+}
+.services__content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.services__content-title {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0d6eb7;
+}
+.services__content-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #242424;
+}

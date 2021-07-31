@@ -1,0 +1,65 @@
+.techno {
+    max-width: 898px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 120px;
+    box-sizing: border-box;
+    p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 38px;
+      color: #242424;
+      
+      span {
+          font-weight: bold;
+          font-size: 24px;
+      }
+    }
+  }
+  .techno__title {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #194484;
+    margin-bottom: 60px;
+  }
+  .icon-block {
+    max-width: 352px;
+    width: 100%;
+    margin: 30px auto;
+  }
+  
+  .icon-block__android,
+  .icon-block__apple,
+  .icon-block__unity {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+  }
+  .icon-block__android {
+    background: #06b25f;
+    box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+  }
+  .icon-style {
+    margin: 10px;
+    text-align: center;
+    height: 100%;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  .icon-block__apple {
+    background: #276ed8;
+    box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+  }
+  
+  .icon-block__unity {
+    background: #84b5ff;
+    box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+  }

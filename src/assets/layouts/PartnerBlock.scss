@@ -1,0 +1,52 @@
+.partner {
+    background: url("..//images/wave_bg.jpg") no-repeat center center / 100% 100%;
+    min-height: 540px;
+    height: auto;
+}
+.partner__title {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 180px;
+}
+.partner__content {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.partner__btn {
+    display: block;
+    width: 160px;
+    height: 42px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 2px solid #06b25f;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #06b25f;
+}
+@media screen and (max-width: 768px) {
+    .partner__title {
+        font-size: 44px;
+        line-height: 50px;
+        padding-top: 100px;
+    }
+    .partner {
+        background: url("..//images/wave_bg.jpg") no-repeat center center / cover;
+    }
+}

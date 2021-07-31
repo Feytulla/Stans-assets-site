@@ -1,0 +1,23 @@
+@import url('font.scss');
+@import url('home_navbar.scss');
+@import url('HeaderCarousel.scss');
+@import url('HomeTechnologies.scss');
+@import url('RatingBlock.scss');
+@import url('HomeService.scss');
+@import url('PartnerBlock.scss');
+@import url('HomeAchievements.scss');
+@import url('HomePartners.scss');
+@import url('ContactsBlock.scss');
+@import url('Footer.scss');
+
+
+.title-style {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #194484;
+}
