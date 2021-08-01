@@ -1,14 +1,15 @@
 @import url('font.scss');
-@import url('home_navbar.scss');
-@import url('HeaderCarousel.scss');
-@import url('HomeTechnologies.scss');
-@import url('RatingBlock.scss');
-@import url('HomeService.scss');
-@import url('PartnerBlock.scss');
-@import url('HomeAchievements.scss');
-@import url('HomePartners.scss');
-@import url('ContactsBlock.scss');
-@import url('Footer.scss');
+@import url('./all/HeaderMenu.scss');
+@import url('./home/HeaderCarousel.scss');
+@import url('./all/SocialBar.scss');
+@import url('./home/HomeTechnologies.scss');
+@import url('./all/RatingBlock.scss');
+@import url('./home/HomeService.scss');
+@import url('./all/PartnerBlock.scss');
+@import url('./home/HomeAchievements.scss');
+@import url('./home/HomePartners.scss');
+@import url('./all/ContactsBlock.scss');
+@import url('./all/Footer.scss');
 
 
 .title-style {

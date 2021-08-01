@@ -24,7 +24,7 @@
           </div>
           <div class="services__image col-12 col-lg-6">
             <img
-              src="..//assets/images/Illustration.png"
+              src="..//..//assets/images/Illustration.png"
               class="img-fluid"
               alt="Illustration"
             />
@@ -33,7 +33,7 @@
         <div class="services__item row mb-4 mb-lg-0">
           <div class="services__image col-12 col-lg-6 order-2 order-lg-0">
             <img
-              src="..//assets/images/Illustration_2.png"
+              src="..//..//assets/images/Illustration_2.png"
               class="img-fluid"
               alt="Illustration"
             />
@@ -78,7 +78,7 @@
           </div>
           <div class="services__image col-12 col-lg-6">
             <img
-              src="..//assets/images/Illustration_3.png"
+              src="..//..//assets/images/Illustration_3.png"
               class="img-fluid"
               alt="Illustration"
             />
@@ -87,7 +87,7 @@
         <div class="services__item row mb-4 mb-lg-0">
           <div class="services__image col-12 col-lg-6 order-2 order-lg-0">
             <img
-              src="..//assets/images/Illustration_4.png"
+              src="..//..//assets/images/Illustration_4.png"
               class="img-fluid"
               alt="Illustration"
             />

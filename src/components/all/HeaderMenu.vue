@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#"
-        ><img src="..//assets/images/nav_logo.png" alt=""
-      /></a>
+      <router-link class="navbar-brand" to="/"
+        ><img src="..//..//assets/images/nav_logo.png" alt=""
+      /></router-link>
 
       <div
         class="navbar-toggler header__burger"
@@ -31,22 +31,22 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <router-link class="dropdown-item" to="/mobile"
+                <router-link class="dropdown-item" to="/ServicesMobil"
                   >Mobile Application Development</router-link
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="#"
-                  >Game Development Outsourcing</a
+                <router-link class="dropdown-item"  to="/ServicesGame"
+                  >Game Development Outsourcing</router-link
                 >
               </li>
-              <li><a class="dropdown-item" href="#">VR App Development</a></li>
+              <li><router-link class="dropdown-item" to="/ServicesVr">VR App Development</router-link></li>
               <li>
-                <a class="dropdown-item" href="#">Dedicated Developers</a>
+                <router-link class="dropdown-item" to="/ServicesDedi">Dedicated Developers</router-link>
               </li>
-              <li><a class="dropdown-item" href="#">SDK Development</a></li>
+              <li><router-link class="dropdown-item" to="/ServicesSdk">SDK Development</router-link></li>
               <li>
-                <a class="dropdown-item" href="#">3D Modeling services</a>
+                <router-link class="dropdown-item" to="/ServicesMode">3D Modeling services</router-link>
               </li>
             </ul>
           </li>
@@ -62,24 +62,24 @@
               technologies
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Android</a></li>
-              <li><a class="dropdown-item" href="#">IOS</a></li>
-              <li><a class="dropdown-item" href="#">Unity</a></li>
+              <li><router-link class="dropdown-item" to="/ErrorPage">Android</router-link></li>
+              <li><router-link class="dropdown-item" to="/ErrorPage">IOS</router-link></li>
+              <li><router-link class="dropdown-item" to="/ErrorPage">Unity</router-link></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">products</a>
+            <router-link class="nav-link" to="/ErrorPage">products</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">portfolio</a>
+            <router-link class="nav-link" to="/ErrorPage">portfolio</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">blog</a>
+            <router-link class="nav-link" to="/ErrorPage">blog</router-link>
           </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
-              href="#"
+              to="/ErrorPage"
               id="navbarDropdown"
               role="button"
               data-bs-toggle="dropdown"
@@ -88,14 +88,14 @@
               about us
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Contacts</a></li>
-              <li><a class="dropdown-item" href="#">Team</a></li>
-              <li><a class="dropdown-item" href="#">Join the Team</a></li>
+              <li><router-link class="dropdown-item" to="/ErrorPage">Contacts</router-link></li>
+              <li><router-link class="dropdown-item" to="/ErrorPage">Team</router-link></li>
+              <li><router-link class="dropdown-item" to="/ErrorPage">Join the Team</router-link></li>
             </ul>
           </li>
         </ul>
       </div>
-      <div class="menu-btn d-lg-block d-none"><a href="#">contact us</a></div>
+      <div class="menu-btn d-lg-block d-none"><router-link to="/ErrorPage">contact us</router-link></div>
     </div>
   </nav>
 </template>

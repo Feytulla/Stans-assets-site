@@ -127,18 +127,4 @@
       </div>
     </div>
   </div>
-  <div class="social-bar">
-    <div class="social-bar__face">
-      <a href="#"><img src="..//assets/images/Vector.png" alt="" /></a>
-    </div>
-    <div class="social-bar__in">
-      <a href="#"><img src="..//assets/images/Vector-1.png" alt="" /></a>
-    </div>
-    <div class="social-bar__whataapp">
-      <a href="#"><img src="..//assets/images/Vector-2.png" alt="" /></a>
-    </div>
-    <div class="social-bar__skype">
-      <a href="#"><img src="..//assets/images/Vector-3.png" alt="" /></a>
-    </div>
-  </div>
 </template>

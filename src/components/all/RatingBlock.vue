@@ -4,7 +4,7 @@
       class="rating-block row d-flex justify-content-around align-items-center"
     >
       <div class="rating-block__image col-12 col-lg-4 mt-3 mt-lg-0">
-        <img src="..//assets/images/clutch.png" alt="" />
+        <img src="..//..//assets/images/clutch.png" alt="" />
       </div>
       <div class="rating col-12 col-lg-4 mb-4 mb-lg-0 mt-2 mt-lg-0">
         <div class="rating__value">4.5</div>

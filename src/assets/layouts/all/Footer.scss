@@ -1,6 +1,7 @@
 .footer {
-    background: url("..//images/footer_bg.jpg") no-repeat center top /
+    background: url("..//..//images/footer_bg.jpg") no-repeat center top /
       cover;
+      background-color: #194484;
     height: auto;
     text-align: left;
   }
@@ -55,6 +56,11 @@
   }
   @media screen and(max-width: 992px) {
     .footer__items {
-      padding-top: 710px;
+      padding-top: 150px;
+    }
+    .footer {
+        background-color: #194484;
+        background-size: contain;
+      margin-top: 100px;
     }
   }

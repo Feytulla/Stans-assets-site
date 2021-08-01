@@ -1,7 +1,9 @@
 .partner {
-    background: url("..//images/wave_bg.jpg") no-repeat center center / 100% 100%;
-    min-height: 540px;
+    background: url("..//..//images/wave_bg.jpg") no-repeat center center / 100% 100%;
     height: auto;
+}
+.partner__inner {
+    padding-bottom: 150px ;
 }
 .partner__title {
     font-family: Harabara;
@@ -47,6 +49,6 @@
         padding-top: 100px;
     }
     .partner {
-        background: url("..//images/wave_bg.jpg") no-repeat center center / cover;
+        background: url("..//..//images/wave_bg.jpg") no-repeat center center / cover;
     }
 }

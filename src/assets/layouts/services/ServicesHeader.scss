@@ -1,0 +1,30 @@
+.breadcrumb {
+    margin-top: 120px;
+}
+.header__item {
+    text-align: left;
+}
+.header__title {
+    margin-top: 90px;
+}
+.header__image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.header__content-title {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0d6eb7;
+}
+.header__content {
+    font-size: 16px;
+    line-height: 26px;
+    color: #242424;
+    max-width: 550px;
+}
